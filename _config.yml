@@ -396,8 +396,8 @@ bookmark:
 
 # `Follow me on GitHub` banner in the top-right corner.
 github_banner:
-  enable: false
-  permalink: https://github.com/yourname
+  enable: true
+  permalink: https://github.com/itren
   title: Follow me on GitHub
 
 
@@ -596,7 +596,7 @@ comments:
 disqus:
   enable: true
   shortname: itren
-  count: true
+  count: false
   #post_meta_order: 0
 
 # DisqusJS
