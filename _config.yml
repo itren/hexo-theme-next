@@ -594,8 +594,8 @@ comments:
 
 # Disqus
 disqus:
-  enable: true
-  shortname: itren
+  enable: false
+  shortname:
   count: false
   #post_meta_order: 0
 
