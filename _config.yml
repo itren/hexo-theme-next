@@ -189,9 +189,8 @@ site_state: true
 social:
   #GitHub: https://github.com/yourname || github
   Telegram: https://t.me/titren || telegram
-  E-Mail: mailto:itren.tech@gmail.com || envelope
-  PSN ID: https://my.playstation.com/profile/WeArePlaying || gamepad
   RSS: /atom.xml || rss
+  E-Mail: mailto:itren.tech@gmail.com || envelope
   #Weibo: https://weibo.com/yourname || weibo
   #Google: https://plus.google.com/yourname || google
   #FB Page: https://www.facebook.com/yourname || facebook
@@ -217,8 +216,8 @@ feed:
 
 social_icons:
   enable: true
-  icons_only: false
-  transition: false
+  icons_only: true
+  transition: true
 
 # Blog rolls
 links_settings:
@@ -228,9 +227,10 @@ links_settings:
   layout: inline
 
 links:
+  NexT Theme: https://theme-next.iissnan.com
   FreeSSL: https://freessl.cn
+  Font Awesome: https://fontawesome.com
   IPIP.NET: https://www.ipip.net
-
 # Table of Contents in the Sidebar
 # Front-matter variable (unsupport wrap expand_all).
 toc:
