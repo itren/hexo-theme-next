@@ -1,3 +1,6 @@
 [submodule "source/lib/pace"]
 	path = source/lib/pace
 	url = https://github.com/itren/theme-next-pace.git
+[submodule "source/lib/canvas-nest"]
+	path = source/lib/canvas-nest
+	url = https://github.com/itren/theme-next-canvas-nest.git
