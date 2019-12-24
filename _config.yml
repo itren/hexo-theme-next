@@ -43,7 +43,7 @@ favicon:
   small: /images/favicon-16x16-itren.png
   medium: /images/favicon-32x32-itren.png
   apple_touch_icon: /images/apple-touch-icon-itren.png
-  safari_pinned_tab: /images/logo-itren.svg
+  safari_pinned_tab: /images/safari-pinned-tab.svg
   #android_manifest: /images/manifest.json
   #ms_browserconfig: /images/browserconfig.xml
 
