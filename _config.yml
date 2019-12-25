@@ -105,9 +105,9 @@ creative_commons:
 
 # Schemes
 #scheme: Muse
-#scheme: Mist
+scheme: Mist
 #scheme: Pisces
-scheme: Gemini
+#scheme: Gemini
 
 # Automatically Excerpt. Not recommand.
 # Please use <!-- more --> in the post to control excerpt accurately.
@@ -187,8 +187,8 @@ site_state: true
 # Key is the link label showing to end users.
 # Value before `||` delimiter is the target permalink, value after `||` delimiter is the name of Font Awesome icon.
 social:
-  #GitHub: https://github.com/yourname || github
   Telegram: https://t.me/titren || telegram
+  GitHub: https://github.com/itren || github
   RSS: /atom.xml || rss
   E-Mail: mailto:itren.tech@gmail.com || envelope
   #Weibo: https://weibo.com/yourname || weibo
@@ -394,11 +394,11 @@ back2top:
   # Back to top in sidebar.
   sidebar: false
   # Scroll percent label in b2t button.
-  scrollpercent: true
+  scrollpercent: false
 
 # Reading progress bar
 reading_progress:
-  enable: false
+  enable: true
   # Available values: top | bottom
   position: top
   color: "#37c6c0"
@@ -411,12 +411,12 @@ bookmark:
   color: "#222"
   # If auto, save the reading progress when closing the page or clicking the bookmark-icon.
   # If manual, only save it by clicking the bookmark-icon.
-  save: auto
+  save: manual
 
 # `Follow me on GitHub` banner in the top-right corner.
 github_banner:
-  enable: true
-  permalink: https://github.com/itren/itren.github.io
+  enable: false
+  permalink: https://github.com/yourname
   title: Follow me on GitHub
 
 
@@ -855,7 +855,7 @@ mermaid:
 # Use velocity to animate everything.
 # For more information: http://velocityjs.org
 motion:
-  enable: true
+  enable: false
   async: false
   transition:
     # Transition variants:
@@ -897,9 +897,9 @@ canvas_nest:
   enable: true
   onmobile: false # Display on mobile or not
   color: "0,0,255" # RGB values, use `,` to separate
-  opacity: 0.5 # The opacity of line: 0~1
+  opacity: 0.2 # The opacity of line: 0~1
   zIndex: -1 # z-index property of the background
-  count: 100 # The number of lines
+  count: 50 # The number of lines
 
 # Canvas-ribbon
 # Dependencies: https://github.com/theme-next/theme-next-canvas-ribbon
