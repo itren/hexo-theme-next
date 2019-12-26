@@ -241,7 +241,7 @@
             {%- endfor %}
           </div>
         {%- endif %}
-
+        {% include 'google_adsense.swig' %}
         {{ partial('_partials/post/post-footer.swig', {}, {cache: theme.cache.enable}) }}
 
         {{ post_nav(post) }}
