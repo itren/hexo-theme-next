@@ -220,6 +220,8 @@
     {%- if not is_index %}
       {{- next_inject('postBodyEnd') }}
 
+      {% include 'google_adsense.swig' %}
+
       {%- if post.reward_settings.enable %}
         {{ partial('_partials/post/post-reward.swig') }}
       {%- endif %}
@@ -241,7 +243,6 @@
             {%- endfor %}
           </div>
         {%- endif %}
-        {% include 'google_adsense.swig' %}
         {{ partial('_partials/post/post-footer.swig', {}, {cache: theme.cache.enable}) }}
 
         {{ post_nav(post) }}
