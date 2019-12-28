@@ -293,9 +293,9 @@ tag_icon: true
 # Front-matter variable (unsupport animation).
 reward_settings:
   # If true, reward will be displayed in every article by default.
-  enable: false
+  enable: true
   animation: false
-  comment: 如果觉得我的文章对您有用，请随意打赏。您的支持将鼓励我继续创作！
+  comment: 如果觉得我的文章对您有用，请查看广告（Google Ads）或扫码。您的支持将鼓励我继续创作！
 
 reward:
   wechatpay: /images/wechatpay.png
