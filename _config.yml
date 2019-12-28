@@ -372,7 +372,7 @@ mobile_layout_economy: false
 android_chrome_color: "#222"
 
 # Hide sticky headers and color the menu bar on Safari (iOS / macOS).
-safari_rainbow: false
+safari_rainbow: true
 
 # Custom Logo (Do not support scheme Mist)
 custom_logo: #/uploads/custom-logo.jpg
@@ -381,14 +381,14 @@ codeblock:
   # Code Highlight theme
   # Available values: normal | night | night eighties | night blue | night bright | solarized | solarized dark | galactic
   # See: https://github.com/chriskempson/tomorrow-theme
-  highlight_theme: normal
+  highlight_theme: night eighties
   # Add copy button on codeblock
   copy_button:
     enable: true
     # Show text copy result.
     show_result: true
     # Available values: default | flat | mac
-    style:
+    style: mac
 
 back2top:
   enable: true
@@ -402,7 +402,7 @@ reading_progress:
   enable: true
   # Available values: top | bottom
   position: top
-  color: "#000000"
+  color: "#222"
   height: 2px
 
 # Bookmark Support
