@@ -47,11 +47,9 @@
       <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
       <!-- SIDEBAR_AUTO -->
       <ins class="adsbygoogle"
-           style="display:block"
+           style="display:inline-block;width:300px;height:200px"
            data-ad-client="ca-pub-1876891583962196"
-           data-ad-slot="9161595375"
-           data-ad-format="auto"
-           data-full-width-responsive="true"></ins>
+           data-ad-slot="9161595375"></ins>
       <script>
            (adsbygoogle = window.adsbygoogle || []).push({});
       </script>
