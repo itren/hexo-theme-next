@@ -83,9 +83,9 @@ footer:
     # The digit in the num of gongan beian.
     gongan_id: 42098102000038
     # The full num of gongan beian.
-    gongan_num: 鄂公网安备 42098102000038
+    gongan_num: 鄂公网安备42098102000038
     # The icon for gongan beian. See: http://www.beian.gov.cn/portal/download
-    gongan_icon_url:
+    gongan_icon_url: images/beian.png
 
 # Creative Commons 4.0 International License.
 # See: https://creativecommons.org/share-your-work/licensing-types-examples
