@@ -722,7 +722,7 @@ cnzz_siteid:
 # AppID and AppKey are recommended to be the same as valine's for counter compatibility.
 # Do not enable both `valine.visitor` and `leancloud_visitors`.
 leancloud_visitors:
-  enable: false
+  enable: true
   app_id: pYum474EnMMJK1GpfIfx2d0G-MdYXbMMI
   app_key: Agybmge09ranuKDEoxjlqKf0
   # Dependencies: https://github.com/theme-next/hexo-leancloud-counter-security
