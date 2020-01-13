@@ -205,7 +205,7 @@
           {{ post.content }}
         {%- endif %}
       {% else %}
-        <!-- {% include 'google_adsense.swig' %} -->
+        {### {% include 'google_adsense.swig' %} ###}
         {{ post.content }}
       {%- endif %}
     </div>
@@ -221,7 +221,7 @@
     {%- if not is_index %}
       {{- next_inject('postBodyEnd') }}
 
-      <!-- {% include 'google_adsense.swig' %} -->
+      {### {% include 'google_adsense.swig' %} ###}
 
       {%- if post.reward_settings.enable %}
         {{ partial('_partials/post/post-reward.swig') }}
