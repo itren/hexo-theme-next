@@ -44,7 +44,6 @@
         </div>
       {%- endif %}
 
-      {###
       <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
       <!-- SIDEBAR_AUTO -->
       <ins class="adsbygoogle"
@@ -54,7 +53,6 @@
       <script>
            (adsbygoogle = window.adsbygoogle || []).push({});
       </script>
-      ###}
 
     </div>
   </aside>
